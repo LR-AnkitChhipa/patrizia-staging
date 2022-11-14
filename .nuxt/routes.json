@@ -1,0 +1,195 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/apple/Sites/patrizia-staging/.nuxt/prismic/pages/preview.vue"
+  },
+  {
+    "name": "auth",
+    "path": "/auth",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/auth.vue",
+    "chunkName": "pages/auth"
+  },
+  {
+    "name": "charts",
+    "path": "/charts",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/index.vue",
+    "chunkName": "pages/charts/index"
+  },
+  {
+    "name": "data-cards",
+    "path": "/data-cards",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/data-cards/index.vue",
+    "chunkName": "pages/data-cards/index"
+  },
+  {
+    "name": "dev",
+    "path": "/dev",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/index.vue",
+    "chunkName": "pages/dev/index"
+  },
+  {
+    "name": "download_old",
+    "path": "/download_old",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/download_old.vue",
+    "chunkName": "pages/download_old"
+  },
+  {
+    "name": "insights",
+    "path": "/insights",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/insights.vue",
+    "chunkName": "pages/insights",
+    "children": [
+      {
+        "name": "insights-uid",
+        "path": ":uid?",
+        "component": "/Users/apple/Sites/patrizia-staging/pages/insights/_uid.vue",
+        "chunkName": "pages/insights/_uid"
+      }
+    ]
+  },
+  {
+    "name": "Insightsold",
+    "path": "/Insightsold",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/Insightsold.vue",
+    "chunkName": "pages/Insightsold"
+  },
+  {
+    "name": "preview",
+    "path": "/preview",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/preview.vue",
+    "chunkName": "pages/preview"
+  },
+  {
+    "name": "secret",
+    "path": "/secret",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/secret/index.vue",
+    "chunkName": "pages/secret/index"
+  },
+  {
+    "name": "typography",
+    "path": "/typography",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/typography.vue",
+    "chunkName": "pages/typography"
+  },
+  {
+    "name": "user-account",
+    "path": "/user-account",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/user-account.vue",
+    "chunkName": "pages/user-account"
+  },
+  {
+    "name": "verified",
+    "path": "/verified",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/verified.vue",
+    "chunkName": "pages/verified"
+  },
+  {
+    "name": "charts-cities",
+    "path": "/charts/cities",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/cities.vue",
+    "chunkName": "pages/charts/cities"
+  },
+  {
+    "name": "charts-compare",
+    "path": "/charts/compare",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/compare.vue",
+    "chunkName": "pages/charts/compare"
+  },
+  {
+    "name": "charts-goals",
+    "path": "/charts/goals",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/goals.vue",
+    "chunkName": "pages/charts/goals"
+  },
+  {
+    "name": "charts-map",
+    "path": "/charts/map",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/map.vue",
+    "chunkName": "pages/charts/map"
+  },
+  {
+    "name": "charts-radar",
+    "path": "/charts/radar",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/radar.vue",
+    "chunkName": "pages/charts/radar"
+  },
+  {
+    "name": "charts-table",
+    "path": "/charts/table",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/charts/table.vue",
+    "chunkName": "pages/charts/table"
+  },
+  {
+    "name": "dev-animated-pie",
+    "path": "/dev/animated-pie",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/animated-pie.vue",
+    "chunkName": "pages/dev/animated-pie"
+  },
+  {
+    "name": "dev-cards",
+    "path": "/dev/cards",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/cards.vue",
+    "chunkName": "pages/dev/cards"
+  },
+  {
+    "name": "dev-city-summary",
+    "path": "/dev/city-summary",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/city-summary.vue",
+    "chunkName": "pages/dev/city-summary"
+  },
+  {
+    "name": "dev-drag-test",
+    "path": "/dev/drag-test",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/drag-test.vue",
+    "chunkName": "pages/dev/drag-test"
+  },
+  {
+    "name": "dev-forgot-password",
+    "path": "/dev/forgot-password",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/forgot-password.vue",
+    "chunkName": "pages/dev/forgot-password"
+  },
+  {
+    "name": "dev-homepage-slider",
+    "path": "/dev/homepage-slider",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/homepage-slider.vue",
+    "chunkName": "pages/dev/homepage-slider"
+  },
+  {
+    "name": "dev-modal-radial",
+    "path": "/dev/modal-radial",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/modal-radial.vue",
+    "chunkName": "pages/dev/modal-radial"
+  },
+  {
+    "name": "dev-range",
+    "path": "/dev/range",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/dev/range.vue",
+    "chunkName": "pages/dev/range"
+  },
+  {
+    "name": "city-uid",
+    "path": "/city/:uid?",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/city/_uid.vue",
+    "chunkName": "pages/city/_uid"
+  },
+  {
+    "name": "data-cards-cityid",
+    "path": "/data-cards/:cityid?",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/data-cards/_cityid.vue",
+    "chunkName": "pages/data-cards/_cityid"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/Users/apple/Sites/patrizia-staging/pages/_uid/index.vue",
+    "chunkName": "pages/_uid/index"
+  }
+]
