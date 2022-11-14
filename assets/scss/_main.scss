@@ -1,0 +1,489 @@
+// Helpers
+$primary-color: #802437;
+$secondary-color: #F29131;
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+.checkbox-animated {
+  position: relative;
+
+  input[type=checkbox] {
+    display: none;
+
+    &:checked {
+      ~ {
+        label {
+          .box {
+            opacity: 0;
+            -webkit-transform: scale(0) rotate(-180deg);
+            -moz-transform: scale(0) rotate(-180deg);
+            transform: scale(0) rotate(-180deg);
+          }
+
+          .check {
+            opacity: 1;
+            -webkit-transform: scale(1) rotate(45deg);
+            -moz-transform: scale(1) rotate(45deg);
+            transform: scale(1) rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+
+  label {
+    font-family: 'Corporate S Pro';
+    color: #9C8A8F;
+    text-transform: inherit;
+    cursor: pointer;
+    padding-left: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+
+    span {
+      display: block;
+      position: absolute;
+      left: 0;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+    }
+
+    .box {
+      border: 1px solid #E1DBDD;
+      height: 18px;
+      width: 18px;
+      z-index: 99;
+      -webkit-transition-delay: 0.2s;
+      -moz-transition-delay: 0.2s;
+      transition-delay: 0.2s;
+    }
+
+    .check {
+      top: 0;
+      left: 6px;
+      width: 10px;
+      height: 20px;
+      border: 2px solid #464646;
+      border-top: none;
+      border-left: none;
+      opacity: 0;
+      z-index: 99;
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+      -webkit-transition-delay: 0.3s;
+      -moz-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+    }
+  }
+}
+
+
+// Link css
+
+.link {
+  transition: .2s ease-in-out;
+
+  &.primarylink {
+    color: #802437;
+
+    svg {
+      path {
+        transition: .2s ease-in-out;
+        stroke: #802437;
+      }
+    }
+  }
+
+  &.secondarylink {
+    color: #F29131;
+
+    svg {
+      path {
+        stroke: #F29131;
+      }
+    }
+  }
+
+  &.white {
+    color: #fff;
+
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+
+  &.textlink {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    transition: .2s ease-in-out;
+
+    svg {
+      margin-right: 7px;
+    }
+
+    &:hover {
+      color: #F29131;
+
+      svg {
+        path {
+          stroke: #F29131;
+        }
+      }
+    }
+  }
+
+  &.view {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .5px;
+    font-family: 'Corporate S Pro Bold';
+    text-transform: uppercase;
+
+    img {
+      position: relative;
+      top: -2px;
+      width: 20px;
+      left: 5px;
+      transition: .2s ease-in-out;
+    }
+
+    &:hover {
+      img {
+        left: 10px;
+      }
+    }
+  }
+
+  &.back {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .5px;
+    font-family: 'Corporate S Pro Bold';
+    text-transform: uppercase;
+
+    img {
+      transform: rotate(180deg);
+      position: relative;
+      top: -2px;
+      width: 20px;
+      right: 5px;
+      transition: .2s ease-in-out;
+    }
+
+    &:hover {
+      img {
+        right: 10px;
+      }
+    }
+  }
+}
+
+
+.imagewithtag {
+  position: relative;
+
+  img {
+    max-width: 100%;
+    width: 100%;
+    -webkit-box-shadow: 0px 20px 30px -2px rgba(34, 10, 18, 0.15);
+    -moz-box-shadow: 0px 20px 30px -2px rgba(34, 10, 18, 0.15);
+    box-shadow: 0px 20px 30px -2px rgba(34, 10, 18, 0.15);
+    position: relative;
+    z-index: 8;
+  }
+
+  img.pattern {
+    position: absolute;
+    top: -40px;
+    z-index: 5;
+    box-shadow: none;
+    left: -56px;
+    width: 300px;
+  }
+
+  p.image-tag {
+    background: #802437;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+    z-index: 9;
+    text-transform: uppercase;
+  }
+}
+
+.depth50 {
+  -webkit-box-shadow: 5px 20px 50px 0px rgba(34, 10, 18, 0.15);
+  -moz-box-shadow: 5px 20px 50px 0px rgba(34, 10, 18, 0.15);
+  box-shadow: 5px 20px 50px 0px rgba(34, 10, 18, 0.15);
+}
+
+// Form-component design css
+.nameupdate {
+  &__content {
+    background: #fff;
+    padding: 30px;
+
+    &__form-details {
+      &__form {
+        padding-top: 20px;
+        border-top: 2px solid #F5F3F4;
+
+        .form-row {
+          label {
+            font-family: 'Corporate S Pro bold';
+            font-size: 14px;
+            color: #802437;
+            text-transform: uppercase;
+            letter-spacing: .8px;
+          }
+
+          input.form-control {
+            border-color: #E1DBDD;
+            border-radius: 0px;
+            box-shadow: none;
+            color: #000;
+            outline: none;
+            font-size: 14px;
+            line-height: 17px;
+            height: 45px;
+            font-family: 'Corporate S Pro';
+
+            &:focus {
+              box-shadow: none;
+              outline: none;
+              border-color: #9C8A8F;
+              background: none;
+            }
+          }
+
+          .item {
+            flex: 1;
+
+            &--one {
+              max-width: 135px;
+              width: 100%;
+
+              .box-select, select {
+                width: 100%;
+              }
+
+              @include respond-below(sm) {
+                max-width: 100%;
+              }
+            }
+          }
+
+          &:first-child {
+            @include respond-below(sm) {
+              .item {
+                flex-basis: 100%;
+              }
+            }
+          }
+        }
+
+        .box__button {
+          text-align: right;
+
+          a.textlink {
+            margin-right: 30px;
+          }
+        }
+
+        h4 {
+          margin-bottom: 8px;
+        }
+
+        p {
+          margin: 0;
+        }
+
+        &--privacy {
+          .form-row {
+            padding-bottom: 28px;
+            border-bottom: 2px solid #F5F3F4;
+            margin-bottom: 18px;
+
+            p {
+              font-family: "Corporate S Pro";
+              font-size: 14px;
+              line-height: 20px;
+              color: #9C8A8F;
+              padding-right: 70px;
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+
+  .touched.is-invalid {
+    border-color: #C53030 !important;
+    color: #C53030 !important;
+  }
+}
+
+.error-box {
+  background: #c4313130;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  p {
+    color: #C53030;
+    font-family: 'Corporate S Pro Demi';
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+button:disabled {
+  opacity: .5;
+}
+
+.viewer-toolbar {
+  ul {
+    li.viewer-one-to-one, li.viewer-reset, li.viewer-prev, li.viewer-play, li.viewer-next {
+      display: none;
+    }
+
+    li.viewer-zoom-in, li.viewer-zoom-out {
+      height: 40px;
+      width: 40px;
+      background: #000;
+      position: relative;
+
+      &::before {
+        display: none
+      }
+
+      &::after {
+        content: '';
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cg id='Group_11554' data-name='Group 11554' transform='translate(-3970 5571)'%3E%3Crect id='Rectangle_1023' data-name='Rectangle 1023' width='2' height='16' transform='translate(3977 -5571)' fill='%23fff'/%3E%3Crect id='Rectangle_1024' data-name='Rectangle 1024' width='16' height='2' transform='translate(3970 -5564)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E%0A");
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    li.viewer-zoom-out {
+      &::after {
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='2' viewBox='0 0 16 2'%3E%3Crect id='Rectangle_1024' data-name='Rectangle 1024' width='16' height='2' fill='%23fff'/%3E%3C/svg%3E%0A");
+        height: 2px;
+      }
+    }
+  }
+}
+
+.viewer-button.viewer-close {
+  background: none;
+  width: 30px;
+  height: 30px;
+  right: 60px;
+  top: 50px;
+  border-radius: 0;
+
+  &::before {
+    display: none;
+  }
+
+  &::after {
+    content: '';
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='29.074' height='29.074' viewBox='0 0 29.074 29.074'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Cpath id='Path_3088' data-name='Path 3088' d='M39.912-42.241,14.259-16.588c-.531.531-.329,1.6.452,2.376s1.845.984,2.376.452L42.741-39.412c.531-.531.329-1.6-.452-2.376S40.444-42.772,39.912-42.241Z' fill='%23fff'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Cpath id='Path_3090' data-name='Path 3090' d='M14.259-39.412,39.912-13.759c.531.531,1.6.329,2.376-.452s.984-1.845.452-2.376L17.088-42.241c-.531-.531-1.6-.329-2.376.452S13.728-39.944,14.259-39.412Z' fill='%23fff'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Group_5380' data-name='Group 5380' transform='translate(-13.963 42.537)'%3E%3Cg id='Group_5378' data-name='Group 5378' clip-path='url(%23clip-path)'%3E%3Cpath id='Path_3087' data-name='Path 3087' d='M50.774-40.374,16.126-5.726l-9.9-9.9L40.874-50.274Z' fill='%23fff'/%3E%3C/g%3E%3Cg id='Group_5379' data-name='Group 5379' clip-path='url(%23clip-path-2)'%3E%3Cpath id='Path_3089' data-name='Path 3089' d='M16.126-50.274,50.774-15.626l-9.9,9.9L6.226-40.374Z' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @include respond-below(md) {
+    right: 20px;
+    top: 20px;
+  }
+}
+
+
+.latest-insights {
+  .image-boxes {
+    .image-box {
+      .box-link {
+        .main-slide-image {
+          position: relative;
+          max-width: 100%;
+          height: 220px;
+          width: 100%;
+          margin-bottom: 30px;
+          -webkit-box-shadow: 0px 20px 30px -2px rgba(34, 10, 18, 0.15);
+          -moz-box-shadow: 0px 20px 30px -2px rgba(34, 10, 18, 0.15);
+          box-shadow: 0px 20px 30px -2px rgba(34, 10, 18, 0.15);
+          transition: .2s ease-in-out;
+          overflow: hidden;
+
+          img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            transition: .35s ease-in-out;
+          }
+        }
+
+        &:hover {
+          .main-slide-image {
+            box-shadow: none;
+            -webkit-box-shadow: 0px 20px 30px -2px rgba(164, 73, 147, 0.15);
+            -moz-box-shadow: 0px 20px 30px -2px rgba(164, 73, 147, 0.15);
+            box-shadow: 0px 20px 30px -2px rgba(164, 73, 147, 0.15);
+
+            img {
+              width: 103%;
+            }
+          }
+
+          h4 {
+            color: #F29131;
+            transition: .2s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+.keen-slider.svg-cursor {
+  cursor: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='90' height='90' viewBox='0 0 90 90'%3E%3Cdefs%3E%3Cfilter id='Ellipse_1' x='0' y='0' width='90' height='90' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='1' dy='1' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='10' result='blur'/%3E%3CfeFlood flood-color='%23220a12' flood-opacity='0.204'/%3E%3CfeComposite operator='in' in2='blur'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg id='Group_11564' data-name='Group 11564' transform='translate(-71 -226)'%3E%3Cg transform='matrix(1, 0, 0, 1, 71, 226)' filter='url(%23Ellipse_1)'%3E%3Ccircle id='Ellipse_1-2' data-name='Ellipse 1' cx='15' cy='15' r='15' transform='translate(29 29)' fill='%23fff'/%3E%3C/g%3E%3Cpath id='Path_190' data-name='Path 190' d='M0,0,3.887,4,0,8' transform='translate(120.543 266.627)' fill='none' stroke='%23802537' stroke-width='2'/%3E%3Cpath id='Path_190-2' data-name='Path 190' d='M0,0,3.887,4,0,8' transform='translate(109.124 274.373) rotate(180)' fill='none' stroke='%23802537' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A"), auto;
+}

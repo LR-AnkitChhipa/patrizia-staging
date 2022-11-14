@@ -1,0 +1,133 @@
+.tooltip-inner {
+  text-align: left;
+}
+
+.chart-tooltip {
+  opacity: 0;
+  position: absolute;
+  z-index: 5;
+  background-color: white;
+  color: #9C8A8F;
+  padding: 10px;
+  width: 150px;
+  height: 172px;
+  top: 200px;
+  left: 200px;
+  transform: translateY(-100px) translateX(-125px);
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid #B4A4A9;
+  padding: 15px 20px;
+  box-shadow: 0 0 10px rgba(34, 10, 18, 0.12);
+
+
+  &__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    line-height: 0;
+    cursor: pointer;
+  }
+
+  &__city {
+    font-family: 'Georgia Pro Semibold';
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    color: #802437;
+  }
+
+  &__country {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 18px;
+    color: #9C8A8F;
+  }
+
+  &__axis-label {
+    text-transform: uppercase;
+    font-family: "Corporate S Pro Bold";
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.071rem;
+    margin-bottom: 1px;
+    color: #B4A4A9;
+  }
+
+  &__axis-value {
+    font-family: "Corporate S Pro Bold";
+    font-size: 14px;
+    line-height: 21px;
+    color: #210A12;
+    margin-bottom: 21px;
+  }
+
+  &__more {
+
+    .textlink {
+      color: #9C3F57;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+  }
+}
+
+
+// Google maps infowindow styles
+.gm-style {
+
+  .chart--map__map__info-window {
+    margin: 20px 0 0 20px;
+  }
+
+  .gm-style-iw {
+    background-color: white;
+    color: #9C8A8F;
+    padding: 10px;
+    width: 224px;
+    height: 212px;
+    text-align: left;
+    border-radius: 4px;
+    border: 1px solid #B4A4A9;
+    padding: 15px 20px;
+    height: 238px !important;
+    padding: 0px !important;
+  }
+
+  .gm-style-iw-c {
+    border-radius: 4px;
+    font-family: "Corporate S Pro";
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(34, 10, 18, 0.12);
+
+    button.gm-ui-hover-effect {
+      content: '';
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      top: 0px !important;
+      right: 0px !important;
+      line-height: 0;
+      cursor: pointer;
+      background: {
+        image: url('/images/icon-infobox-close.svg') !important;
+        size: 12px !important;
+        repeat: no-repeat !important;
+        position: center !important;
+      }
+
+      img {
+        display: none !important;
+      }
+    }
+  }
+
+  .gm-style-iw-t {
+    &:after, &:before {
+      //display: none;
+    }
+  }
+}

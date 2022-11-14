@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="42" height="42" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="flag-netherlands" clip-path="url(#clip-path)">
+    <g id="flag-netherlands-2" data-name="flag-netherlands" transform="translate(-848.978 -467.514)">
+      <g id="Group_5710" data-name="Group 5710" transform="translate(848.978 481.965)">
+        <path id="Path_3356" data-name="Path 3356" d="M889.936,500.125H850.021a21.087,21.087,0,0,0,0,13.1h39.915a21.1,21.1,0,0,0,0-13.1Z" transform="translate(-848.978 -500.125)" fill="#f5f5f5"/>
+      </g>
+      <g id="Group_5711" data-name="Group 5711" transform="translate(850.021 467.514)">
+        <path id="Path_3357" data-name="Path 3357" d="M871.289,467.514a21.008,21.008,0,0,0-19.958,14.451h39.916A21.009,21.009,0,0,0,871.289,467.514Z" transform="translate(-851.331 -467.514)" fill="#a92124"/>
+      </g>
+      <g id="Group_5712" data-name="Group 5712" transform="translate(850.021 495.063)">
+        <path id="Path_3358" data-name="Path 3358" d="M871.289,544.132a21.009,21.009,0,0,0,19.958-14.451H851.331A21.008,21.008,0,0,0,871.289,544.132Z" transform="translate(-851.331 -529.681)" fill="#244786"/>
+      </g>
+    </g>
+  </g>
+</svg>

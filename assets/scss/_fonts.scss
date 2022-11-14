@@ -1,0 +1,82 @@
+// Georgia font Starts
+@font-face {
+  font-family: "Georgia Pro Semibold";
+  src: url("../fonts/georgia-pro/GeorgiaPro-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/georgia-pro/GeorgiaPro-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/georgia-pro/GeorgiaPro-SemiBold.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/georgia-pro/GeorgiaPro-SemiBold.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia Pro Regular";
+  src: url("../fonts/georgia-pro/GeorgiaPro-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/georgia-pro/GeorgiaPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/georgia-pro/GeorgiaPro-Regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/georgia-pro/GeorgiaPro-Regular.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Georgia font Ends
+
+
+// Corporate s pro font Starts
+
+@font-face {
+  font-family: "Corporate S Pro";
+  src: url("../fonts/corporate-s/CorporateSPro-Regular.eot"),
+    url("../fonts/corporate-s/CorporateSPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/corporate-s/CorporateSPro-Regular.woff2") format("woff2"),
+    url("../fonts/corporate-s/CorporateSPro-Regular.woff") format("woff"),
+    url("../fonts/corporate-s/CorporateSPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Corporate S Pro light";
+  src: url("../fonts/corporate-s/CorporateSPro-Light.eot"),
+    url("../fonts/corporate-s/CorporateSPro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/corporate-s/CorporateSPro-Light.woff2") format("woff2"),
+    url("../fonts/corporate-s/CorporateSPro-Light.woff") format("woff"),
+    url("../fonts/corporate-s/CorporateSPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Corporate S Pro bold";
+  src: url("../fonts/corporate-s/CorporateSPro-Bold.eot"),
+    url("../fonts/corporate-s/CorporateSPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/corporate-s/CorporateSPro-Bold.woff2") format("woff2"),
+    url("../fonts/corporate-s/CorporateSPro-Bold.woff") format("woff"),
+    url("../fonts/corporate-s/CorporateSPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Corporate S Pro Demi";
+  src: url("../fonts/corporate-s/CorporateSPro-Demi.eot"),
+    url("../fonts/corporate-s/CorporateSPro-Demi.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/corporate-s/CorporateSPro-Demi.woff2") format("woff2"),
+    url("../fonts/corporate-s/CorporateSPro-Demi.woff") format("woff"),
+    url("../fonts/corporate-s/CorporateSPro-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// Corporate s pro font Ends

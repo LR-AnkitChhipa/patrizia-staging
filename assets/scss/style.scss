@@ -1,0 +1,34 @@
+
+// ===== Bootstrap
+
+// Only include what we need from Bootstrap (see file "node_modules/bootstrap/scss/bootstrap" for full list of components)
+
+$grid-gutter-width: 32px !default;
+$animationDuration: 0.5s;
+
+@import "../../lib/vue-range-slider.min.css";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/tables";
+
+
+// ===== CSS
+@import "fonts";
+@import 'mixins';
+@import 'typography';
+@import 'main';
+@import 'user-centrics';
+@import "dots";
+@import 'accordion';
+@import 'buttons';
+@import 'common';
+@import 'alert';
+@import 'forms';
+@import 'lily';
+@import 'data-card-inner';
+@import 'chart-tooltip';
+@import 'blockquote';
+@import 'breadcrumb';
+@import 'container-breakout';

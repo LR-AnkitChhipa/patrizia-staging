@@ -1,0 +1,227 @@
+html {
+  body {
+    font-family: "Georgia Pro Regular", Fallback, sans-serif;
+
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    .introduction,
+    h6,
+    .h6 {
+      font-family: "Georgia Pro Semibold", Fallback, sans-serif;
+      color: #802437;
+    }
+
+    h1, .h1 {
+      font-size: 48px;
+      line-height: 55px;
+      @include respond-below(xl) {
+        font-size: 30px;
+        line-height: 45px;
+      }
+    }
+
+    h2, .h2 {
+      font-size: 30px;
+      line-height: 42px;
+      margin-bottom: 40px;
+
+      @include respond-below(xl) {
+        font-size: 25px;
+        line-height: 35px;
+      }
+      @include respond-below(sm) {
+        margin-bottom: 20px;
+      }
+
+    }
+
+    h3, .h3 {
+      font-size: 21px;
+      line-height: 30px;
+      margin-bottom: 28px;
+
+      @include respond-below(xl) {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+
+    h4, .h4 {
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 28px;
+
+      @include respond-below(xl) {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+
+    h5, .h5, .introduction {
+      font-size: 16px;
+      line-height: 21px;
+      font-family: 'Georgia Pro Regular", Fallback, sans-serif';
+      font-weight: bold;
+      @include respond-below(xl) {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    p {
+      font-family: "Corporate S Pro", Fallback, sans-serif;
+      font-size: 16px;
+      color: #210A12;
+      line-height: 21px;
+
+      &.large-paragraph {
+        font-family: "Georgia Pro";
+        color: #802437;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: normal;
+      }
+
+      span {
+        &.large-paragraph {
+          font-family: "Georgia Pro";
+          color: #802437;
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: normal;
+        }
+      }
+
+    }
+
+    .subline, .lead {
+      color: #B4A4A9;
+      font-size: 14px;
+      font-family: "Corporate S Pro Bold", Fallback, sans-serif;
+      line-height: 16px;
+      letter-spacing: 0.074em;
+      text-transform: uppercase;
+
+
+      &--with-dash {
+        position: relative;
+        display: flex;
+        align-items: center;
+        @include respond-below(md) {
+          padding-left: 36px;
+        }
+
+        &:before {
+          content: '';
+          display: block;
+          width: 20px;
+          height: 1px;
+          background-color: #B4A4A9;
+          position: absolute;
+          left: -36px;
+          @include respond-below(md) {
+            left: 0;
+          }
+        }
+      }
+    }
+
+
+    a {
+      font-family: "Corporate S Pro", Fallback, sans-serif;
+      text-decoration: none !important;
+      color: #802437;
+      font-size: 16px;
+      transition: 0.2s ease-in;
+
+      &:hover {
+        color: #802437;
+      }
+    }
+
+    span.link-with-arrow {
+      a {
+        position: relative;
+        padding-left: 15px;
+        transition: .2s ease-in;
+
+        &::after {
+          content: '';
+          position: absolute;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.044' height='9.567' viewBox='0 0 5.044 9.567'%3E%3Cpath id='Path_2589' data-name='Path 2589' d='M0,0,4,4.449,0,8.9' transform='translate(0.372 0.334)' fill='none' stroke='%237f2336' stroke-width='1'/%3E%3C/svg%3E%0A");
+          width: 5px;
+          height: 10px;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          background-size: 100%;
+          transition: .2s ease-in;
+        }
+
+        &:hover {
+          color: #F29131;
+
+          &::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.044' height='9.567' viewBox='0 0 5.044 9.567'%3E%3Cpath id='Path_2589' data-name='Path 2589' d='M0,0,4,4.449,0,8.9' transform='translate(0.372 0.334)' fill='none' stroke='%23f29131' stroke-width='1'/%3E%3C/svg%3E%0A");
+          }
+        }
+      }
+    }
+
+    .typography {
+
+      ul {
+        margin-bottom: 29px;
+
+        li {
+          font-family: 'Corporate S Pro';
+          font-size: 16px;
+          line-height: 38px;
+          border-bottom: 2px solid #F5F3F4;
+          width: 100%;
+          display: block;
+          margin-bottom: 6px;
+          padding-left: 20px;
+          position: relative;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          &::before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            position: absolute;
+            top: 13px;
+            left: 0;
+            background: #802437;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+.formdiv .form-row label {
+  &.text-danger {
+    text-transform: none;
+    font-family: "Corporate S Pro";
+  }
+}
+
+a.data-protection-link {
+  font-size: 14px;
+  text-decoration: underline !important;
+}

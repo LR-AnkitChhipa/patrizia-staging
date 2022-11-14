@@ -1,0 +1,45 @@
+.alert {
+  border-radius: 0;
+  font-family: "Corporate S Pro";
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+
+  a {
+    font-family: "Corporate S Pro";
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background: {
+      image: url("/images/icons/alert-success.png");
+      repeat: no-repeat;
+      position: center;
+      size: 20px;
+    };
+  }
+
+  &-success {
+    color: #01A64B;
+    background-color: rgba(1, 168, 120, 0.2);
+  }
+
+  &-danger {
+    color: #C53030;
+    background-color: rgba(197, 48, 48, 0.2);
+
+    &:before {
+      background: {
+        image: url("/images/icons/alert-danger.png");
+      };
+    }
+  }
+}

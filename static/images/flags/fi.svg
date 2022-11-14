@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="flag-finland" transform="translate(-213.358 -306.924)">
+    <g id="Group_9169" data-name="Group 9169" transform="translate(228.78 332.756)">
+      <path id="Path_4760" data-name="Path 4760" d="M248.16,380.629a20.942,20.942,0,0,0,4.44.721c.377.02.756.034,1.138.034A21.009,21.009,0,0,0,273.7,366.933q.276-.843.48-1.717H248.16Z" transform="translate(-248.16 -365.216)" fill="#f5f5f5"/>
+    </g>
+    <g id="Group_9170" data-name="Group 9170" transform="translate(228.78 306.924)">
+      <path id="Path_4761" data-name="Path 4761" d="M248.16,325.415h26.421c-.055-.453-.118-.9-.2-1.348a20.944,20.944,0,0,0-20.642-17.143c-.382,0-.761.013-1.138.034a20.915,20.915,0,0,0-4.44.721Z" transform="translate(-248.16 -306.924)" fill="#f5f5f5"/>
+    </g>
+    <g id="Group_9171" data-name="Group 9171" transform="translate(213.92 332.756)">
+      <path id="Path_4762" data-name="Path 4762" d="M214.627,365.216q.2.873.48,1.717a21.021,21.021,0,0,0,7.039,9.995V365.216Z" transform="translate(-214.627 -365.216)" fill="#f5f5f5"/>
+    </g>
+    <g id="Group_9172" data-name="Group 9172" transform="translate(213.515 311.381)">
+      <path id="Path_4763" data-name="Path 4763" d="M221.637,316.981a20.826,20.826,0,0,0-7.724,12.687c-.082.444-.146.895-.2,1.348h7.925Z" transform="translate(-213.712 -316.981)" fill="#f5f5f5"/>
+    </g>
+    <g id="Group_9173" data-name="Group 9173" transform="translate(213.358 307.678)">
+      <path id="Path_4764" data-name="Path 4764" d="M255.2,326.363H228.78V308.626q-.774.213-1.524.481a20.961,20.961,0,0,0-5.816,3.221v14.034h-7.925a20.5,20.5,0,0,0,.064,5.534q.132.917.341,1.807h7.52v11.711a20.959,20.959,0,0,0,5.816,3.221q.748.27,1.524.481V333.7H254.8q.207-.889.341-1.807a21.147,21.147,0,0,0,.221-3.025A20.842,20.842,0,0,0,255.2,326.363Z" transform="translate(-213.358 -308.626)" fill="#273c69"/>
+    </g>
+  </g>
+</svg>

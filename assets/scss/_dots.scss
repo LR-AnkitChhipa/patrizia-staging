@@ -1,0 +1,84 @@
+/**
+Styles for the chart dots
+ */
+
+.dot {
+  stroke: black;
+  fill: red;
+  stroke-width: 1.5px;
+
+  &--no-cluster {
+    fill: white;
+    stroke: white;
+  }
+
+  &--affordable,
+  &--aspirational{
+    fill: #29B5BA;
+    stroke: #29B5BA;
+  }
+
+  &--powerful {
+    fill: #802537;
+    stroke: #802537;
+  }
+
+  &--liquid {
+    fill: #B4A4A9;
+    stroke: #B4A4A9;
+  }
+
+  &--innovative {
+    fill: #A44993;
+    stroke: #A44993;
+  }
+}
+
+.dots{
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #E1DBDD;
+    border: 1px solid #E1DBDD;
+    outline: none;
+    padding: 3px;
+    margin-right: 10px;
+    &.active{
+      background-color: #802537;
+      border-color: #802537;
+    }
+  }
+  &.with-arrow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    a.arrow{
+      svg{
+        g{
+          path{
+            stroke: #802537;
+          }
+        }
+      }
+      &.arrow--left{
+        margin-right: 22px;
+        svg{
+          transform: rotate(180deg);
+        }
+      }
+      &.arrow--right{
+        margin-left: 10px;
+      }
+      &.arrow--disabled{
+        svg{
+          g{
+            path{
+              stroke: #E1DBDD;
+            }
+          }
+        }
+      }
+    }
+  }
+}

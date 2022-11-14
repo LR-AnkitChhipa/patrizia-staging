@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="319" height="107" viewBox="0 0 319 107">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="319" height="107" transform="translate(470.971 250.63)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_126" data-name="Group 126" transform="translate(-470.971 -250.63)">
+    <g id="Group_125" data-name="Group 125" clip-path="url(#clip-path)">
+      <g id="Mask_Group_14" data-name="Mask Group 14">
+        <g id="Group_4812" data-name="Group 4812">
+          <g id="Group_4804" data-name="Group 4804" class="child">
+            <path id="Path_2516" data-name="Path 2516" d="M712.971,315.228h4.866l2.8,26.926h11.782l2.8-26.926h4.865v-30.1H712.971Z" fill="none" stroke="#8bccca" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_26" data-name="Ellipse 26" cx="8.976" cy="8.976" r="8.976" transform="translate(717.553 263.808)" fill="none" stroke="#8bccca" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4805" data-name="Group 4805" class="child">
+            <path id="Path_2517" data-name="Path 2517" d="M545.971,315.228h4.866l2.8,26.926h11.782l2.8-26.926h4.865v-30.1H545.971Z" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_27" data-name="Ellipse 27" cx="8.976" cy="8.976" r="8.976" transform="translate(550.553 263.808)" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4806" data-name="Group 4806" class="child">
+            <path id="Path_2518" data-name="Path 2518" d="M588.971,315.228h4.866l2.8,26.926h11.782l2.8-26.926h4.865v-30.1H588.971Z" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_28" data-name="Ellipse 28" cx="8.976" cy="8.976" r="8.976" transform="translate(593.553 263.808)" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4807" data-name="Group 4807" class="child">
+            <path id="Path_2519" data-name="Path 2519" d="M779.015,287.737H760.04L755.971,325.4h5.923l1.744,16.751h11.783l1.742-16.751h5.925Z" fill="none" stroke="#8bccca" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_29" data-name="Ellipse 29" cx="8.976" cy="8.976" r="8.976" transform="translate(760.552 266.422)" fill="none" stroke="#8bccca" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4808" data-name="Group 4808" class="child">
+            <path id="Path_2520" data-name="Path 2520" d="M525.015,287.737H506.04L501.971,325.4h5.923l1.744,16.751h11.783l1.742-16.751h5.925Z" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_30" data-name="Ellipse 30" cx="8.976" cy="8.976" r="8.976" transform="translate(506.552 266.422)" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4809" data-name="Group 4809" class="child">
+            <path id="Path_2521" data-name="Path 2521" d="M651.751,295.3H636.04l-4.069,30.487h5.923l1.744,16.751h8.516l1.742-16.751h5.925Z" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_31" data-name="Ellipse 31" cx="7.579" cy="7.579" r="7.579" transform="translate(636.317 276.878)" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4810" data-name="Group 4810" class="child">
+            <path id="Path_2522" data-name="Path 2522" d="M671.971,321.49h4.866l2.8,20.4h8.517l2.8-20.4h4.865V297.914H671.971Z" fill="none" stroke="#8bccca" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_32" data-name="Ellipse 32" cx="7.579" cy="7.579" r="7.579" transform="translate(676.317 279.493)" fill="none" stroke="#8bccca" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4811" data-name="Group 4811" class="child">
+            <path id="Path_2523" data-name="Path 2523" d="M461.971,321.49h4.866l2.8,20.4h8.517l2.8-20.4h4.865V297.914H461.971Z" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+            <circle id="Ellipse_33" data-name="Ellipse 33" cx="7.579" cy="7.579" r="7.579" transform="translate(466.317 279.493)" fill="none" stroke="#d8d0d3" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

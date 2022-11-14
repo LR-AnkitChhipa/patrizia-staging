@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="flag-slovakia" transform="translate(-373.785 -627.684)">
+    <g id="Group_6495" data-name="Group 6495" transform="translate(374.827 655.232)">
+      <path id="Path_3667" data-name="Path 3667" d="M396.095,704.3a21.008,21.008,0,0,0,19.958-14.452H376.137A21.009,21.009,0,0,0,396.095,704.3Z" transform="translate(-376.137 -689.85)" fill="#c62727"/>
+    </g>
+    <g id="Group_6496" data-name="Group 6496" transform="translate(373.785 642.135)">
+      <path id="Path_3668" data-name="Path 3668" d="M414.743,660.295H374.827a21.093,21.093,0,0,0,0,13.1h39.915a21.093,21.093,0,0,0,0-13.1Z" transform="translate(-373.785 -660.295)" fill="#0d4d99"/>
+    </g>
+    <g id="Group_6497" data-name="Group 6497" transform="translate(374.827 627.684)">
+      <path id="Path_3669" data-name="Path 3669" d="M396.095,627.684a21.009,21.009,0,0,0-19.958,14.451h39.915A21.008,21.008,0,0,0,396.095,627.684Z" transform="translate(-376.137 -627.684)" fill="#f5f5f5"/>
+    </g>
+    <g id="Group_6504" data-name="Group 6504" transform="translate(378.748 640.697)">
+      <g id="Group_6498" data-name="Group 6498" transform="translate(0 0)">
+        <path id="Path_3670" data-name="Path 3670" d="M391.893,674.711s-8.257-4.475-6.717-14.087l-.191-3.575h13.66l-.036,3.575C400.481,669.321,391.893,674.711,391.893,674.711Z" transform="translate(-384.985 -657.049)" fill="#fffcfa"/>
+      </g>
+      <g id="Group_6499" data-name="Group 6499" transform="translate(0.687 0.667)">
+        <path id="Path_3671" data-name="Path 3671" d="M392.813,674.6s-7.5-4.067-6.1-12.8l-.175-3.249h12.413l-.033,3.249C400.616,669.706,392.813,674.6,392.813,674.6Z" transform="translate(-386.535 -658.555)" fill="#ce2029"/>
+      </g>
+      <g id="Group_6500" data-name="Group 6500" transform="translate(6.041 1.607)">
+        <rect id="Rectangle_839" data-name="Rectangle 839" width="1.572" height="8.717" fill="#fffcfa"/>
+      </g>
+      <g id="Group_6501" data-name="Group 6501" transform="translate(3.869 3.693)">
+        <rect id="Rectangle_840" data-name="Rectangle 840" width="6.002" height="1.572" fill="#fffcfa"/>
+      </g>
+      <g id="Group_6502" data-name="Group 6502" transform="translate(3.126 6.351)">
+        <rect id="Rectangle_841" data-name="Rectangle 841" width="7.431" height="1.829" fill="#fffcfa"/>
+      </g>
+      <g id="Group_6503" data-name="Group 6503" transform="translate(2.551 10.658)">
+        <path id="Path_3672" data-name="Path 3672" d="M398.108,682.059a1.888,1.888,0,0,0-1.322.492,1.02,1.02,0,0,0,.011-.143c0-.722-.781-1.309-1.744-1.309s-1.744.586-1.744,1.309v.012a1.692,1.692,0,0,0-1.09-.378,1.48,1.48,0,0,0-1.477.959,13.552,13.552,0,0,0,4.457,4.357h0a16.345,16.345,0,0,0,4.452-4.505A1.713,1.713,0,0,0,398.108,682.059Z" transform="translate(-390.742 -681.099)" fill="#1e429b"/>
+      </g>
+    </g>
+  </g>
+</svg>

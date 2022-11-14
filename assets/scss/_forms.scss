@@ -1,0 +1,92 @@
+.formdiv {
+  border: 1px solid #F0EDEE;
+  border-top: none;
+  padding: 30px;
+
+  .form-row {
+    label {
+      font-family: 'Corporate S Pro bold';
+      font-size: 14px;
+      color: #802437;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+    }
+
+    input.form-control {
+      border-color: #E1DBDD;
+      border-radius: 0px;
+      box-shadow: none;
+      color: #000;
+      outline: none;
+      font-size: 14px;
+      line-height: 17px;
+      height: 45px;
+      font-family: 'Corporate S Pro';
+
+      &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: #F29131;
+        background: none;
+      }
+    }
+
+    .item {
+      flex: 1;
+
+      &--one {
+        max-width: 135px;
+        width: 100%;
+
+        .box-select, select {
+          width: 100%;
+        }
+
+        @include respond-below(sm) {
+          max-width: 100%;
+        }
+      }
+    }
+
+    &:first-child {
+      @include respond-below(sm) {
+        .item {
+          flex-basis: 100%;
+        }
+      }
+    }
+
+    &.divider-down {
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #F3F1F1;
+    }
+
+    &.submit {
+      .form-check {
+        padding-left: 0;
+
+        label {
+          font-family: 'Corporate S Pro';
+          color: #9C8A8F;
+          text-transform: inherit;
+        }
+      }
+
+      .text-right {
+        @include respond-below(sm) {
+          text-align: center !important;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  &--noborder {
+    border: none;
+  }
+
+  &--nopad {
+    padding: 0;
+  }
+}
